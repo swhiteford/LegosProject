@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+/* MyBest.css */
+.Best {
+  background-image: url("https://th.bing.com/th?id=OIP.BHApJTaDHWfH_pcQoRuetQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+  display: flex;
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  min-height: 50vh;
+  object-fit: cover;
+  color: black;
+}
+
+.Inspire {
+  background-image: url("https://th.bing.com/th?q=Children+Play+Toys&w=138&h=138&c=7&o=5&pid=1.7&mkt=en-US&cc=US&setlang=en&adlt=moderate");
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+#Inspire {
+  background-image: url("https://th.bing.com/th?q=Children+Play+Toys&w=138&h=138&c=7&o=5&pid=1.7&mkt=en-US&cc=US&setlang=en&adlt=moderate");
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+#History {
+  background-image: url("https://www.bing.com/th?id=OPHS.6sdCUJw8jdRMDg474C474&o=5&pid=21.1&w=142&h=142&qlt=100&dpr=1&c=17");
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+#Country {
+  background-image: url("https://th.bing.com/th?id=OIP.L_3UK4F_Z7HUMZMaQZ7b8wHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+#Support {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
